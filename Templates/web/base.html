@@ -28,3 +28,28 @@
   <title>Rubide T-shop</title>
 
 </head>
+<body>
+    
+    {% include 'web/partials/header.html' %}
+    {% block content %}
+    
+    {% endblock  %}
+    {% include 'web/partials/footer.html' %}
+
+  <!-- Go To Top -->
+  <div id="scrollTop" class="visually-hidden end-0"></div>
+  <!-- Page Overlay -->
+  <div class="page-overlay"></div><!-- /.page-overlay -->
+  <!-- External JavaScripts -->
+  <script src="{% static "web/js/plugins/jquery.min.js" %}"></script>
+  <script src="{% static "web/js/plugins/bootstrap.bundle.min.js" %}"></script>
+  <script src="{% static "web/js/plugins/bootstrap-slider.min.js" %}"></script>
+  <!-- <script src="js/plugins/jquery.waypoints.min.js"></script> -->
+  <!-- <script src="js/plugins/sticky.min.js"></script> -->
+  <script src="{% static "web/js/plugins/swiper.min.js" %}"></script>
+  <script src="{% static "web/js/plugins/countdown.js" %}"></script>
+  <!-- Footer Scripts -->
+  <script src="{% static "web/js/theme.js" %}"></script>
+
+</body>
+</html>
